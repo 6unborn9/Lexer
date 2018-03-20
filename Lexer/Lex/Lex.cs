@@ -310,7 +310,7 @@ namespace Lexer.Lex
             else if (Regex.IsMatch(Simbolo.ToString(), NUMEROS))
             {
                 // TOKEN no completado, continual el proceso de lectura en el Estado_50
-                return Estado_50(Simbolo);
+                return Estado_53(Simbolo);
             }
             else
             {
@@ -365,6 +365,8 @@ namespace Lexer.Lex
         /// <returns>The <see cref="int"/></returns>
         internal int Estado_Final()
         {
+            BUFFER = null;
+            temp = 0;
             return errorCount;
         }
 
@@ -384,7 +386,7 @@ namespace Lexer.Lex
                     BUFFER += simbolo.ToString();
                     return Estado_5();
                 default:
-                    if (simbolo == ' ' || simbolo == '\n')
+                    if (simbolo == ' ' || simbolo == '\r' || simbolo == '\n')
                     {
                         return Estado_51(simbolo);
                     }
