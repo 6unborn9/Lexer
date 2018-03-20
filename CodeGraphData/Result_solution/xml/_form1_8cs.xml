@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_form1_8cs" kind="file">
+    <compoundname>Form1.cs</compoundname>
+    <innerclass refid="class_lexer_1_1_form1" prot="public">Lexer::Form1</innerclass>
+    <innernamespace refid="namespace_lexer">Lexer</innernamespace>
+    <innernamespace refid="namespace_system">System</innernamespace>
+    <innernamespace refid="namespace_system_1_1_collections_1_1_generic">System::Collections::Generic</innernamespace>
+    <innernamespace refid="namespace_system_1_1_windows_1_1_forms">System::Windows::Forms</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/></highlight></codeline>
+<codeline lineno="2"><highlight class="comment">Archivo<sp/>de<sp/>codigo<sp/>fuente:</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">Form1.cs</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">Creado<sp/>en:</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">13/3/2018</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">Por:</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">Ikkram</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">Todos<sp/>los<sp/>derechos<sp/>reservados,<sp/>no<sp/>se<sp/>permite<sp/>crear<sp/>copias<sp/>totales<sp/>o<sp/>parciales<sp/>del<sp/>codigo<sp/>fuente.</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"></highlight></codeline>
+<codeline lineno="10"><highlight class="comment">Los<sp/>usos<sp/>no<sp/>autorizados<sp/>del<sp/>mismo<sp/>pueden<sp/>y<sp/>seran<sp/>sancionados.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="namespace_lexer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Lexer</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Lexer.Lex;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Windows.Forms;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="class_lexer_1_1_form1" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">partial<sp/>class<sp/></highlight><highlight class="normal"><ref refid="class_lexer_1_1_form1" kindref="compound">Form1</ref><sp/>:<sp/>Form</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>Constructors</highlight></codeline>
+<codeline lineno="26"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="30" refid="class_lexer_1_1_form1_1a0c90e66bb2db3e156e78e11e92fa128e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_lexer_1_1_form1_1a0c90e66bb2db3e156e78e11e92fa128e" kindref="member">Form1</ref>()</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_lexer_1_1_form1_1a26e544f4ab40460ecc902822d5eeea13" kindref="member">InitializeComponent</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight></codeline>
+<codeline lineno="36"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>Methods</highlight></codeline>
+<codeline lineno="38"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="43" refid="class_lexer_1_1_form1_1a619bc2170606130997af7a8a2b7b8331" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">internal</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_lexer_1_1_form1_1a619bc2170606130997af7a8a2b7b8331" kindref="member">Tokens</ref>(List&lt;string&gt;<sp/>vs)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(var<sp/>item<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>vs)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ltTokes.Items.Add(item);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="class_lexer_1_1_form1_1a4504a959aff724ba5d0507ab81ccf84a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_lexer_1_1_form1_1a4504a959aff724ba5d0507ab81ccf84a" kindref="member">Form1_Load</ref>(</highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>sender,<sp/>EventArgs<sp/>e)</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="class_lexer_1_1_form1_1a54a5a47b8ed5586f732dfaf1fc4c7e2b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_lexer_1_1_form1_1a54a5a47b8ed5586f732dfaf1fc4c7e2b" kindref="member">Procesar_Click</ref>(</highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>sender,<sp/>EventArgs<sp/>e)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>cadena<sp/>=<sp/>txCodigo.Text;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_lexer_1_1_lex_1_1_lexe" kindref="compound">Lexe</ref><sp/>lex<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_lexer_1_1_lex_1_1_lexe" kindref="compound">Lexe</ref>(cadena);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lex.Estado_0();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_lexer_1_1_form1_1a619bc2170606130997af7a8a2b7b8331" kindref="member">Tokens</ref>(lex.<ref refid="class_lexer_1_1_lex_1_1_lexe_1ac51c083c77805d773f2e1cbb4752c244" kindref="member">TOKENS</ref>);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MessageBox.Show(</highlight><highlight class="stringliteral">&quot;Se<sp/>han<sp/>encontrado<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>lex.Estado_Final().ToString()<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/>Errores&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Errores&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight></codeline>
+<codeline lineno="75"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Form1.cs"/>
+  </compounddef>
+</doxygen>

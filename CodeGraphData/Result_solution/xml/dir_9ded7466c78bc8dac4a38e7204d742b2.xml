@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_9ded7466c78bc8dac4a38e7204d742b2" kind="dir">
+    <compoundname>C:/Users/eartt/source/repos/Lexer/Lexer</compoundname>
+    <innerdir refid="dir_c39abedda9097c948f1d0a7399fc25bb">C:/Users/eartt/source/repos/Lexer/Lexer/Lex</innerdir>
+    <innerdir refid="dir_502f98896a23385d5b7aac88ab228cd2">C:/Users/eartt/source/repos/Lexer/Lexer/Properties</innerdir>
+    <innerfile refid="_form1_8cs">Form1.cs</innerfile>
+    <innerfile refid="_form1_8_designer_8cs">Form1.Designer.cs</innerfile>
+    <innerfile refid="_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/eartt/source/repos/Lexer/Lexer/"/>
+  </compounddef>
+</doxygen>

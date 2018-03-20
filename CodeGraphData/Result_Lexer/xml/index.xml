@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_lexer_1_1_form1" kind="class"><name>Lexer::Form1</name>
+    <member refid="class_lexer_1_1_form1_1a327d2234f241f1c1440db1a7654f4a4c" kind="variable"><name>components</name></member>
+    <member refid="class_lexer_1_1_form1_1a0c90e66bb2db3e156e78e11e92fa128e" kind="function"><name>Form1</name></member>
+    <member refid="class_lexer_1_1_form1_1a4504a959aff724ba5d0507ab81ccf84a" kind="function"><name>Form1_Load</name></member>
+    <member refid="class_lexer_1_1_form1_1a26e544f4ab40460ecc902822d5eeea13" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_lexer_1_1_form1_1a0e4907dd404780908a98a38629c2290f" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_lexer_1_1_lex_1_1_lexe" kind="class"><name>Lexer::Lex::Lexe</name>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1adbd8c2c9237843f96d7fa11a6c9d1671" kind="variable"><name>_Cadena</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a151d98637b9c1c0d3129fe4a6afb6e83" kind="variable"><name>BUFFER</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1ab094f2687667a04483bee5e61bfa0a19" kind="variable"><name>errorCount</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a18bb804f2066a7c6a409cfb4f7a2d024" kind="variable"><name>LETRAS</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a9c90d6e07b9cf70a0be837f1c2aa03ea" kind="variable"><name>MAYUSCULAS</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a50ed36f7f889afc670d446e37ca03047" kind="variable"><name>MINUSCULAS</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a8c468730a86a279a05bef9ba0dd63e0a" kind="variable"><name>NUMEROS</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1ab1fd8080bdd1091cbebce206193d88d8" kind="variable"><name>posicion</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a6032b519db9844ddfdea24facbf6af59" kind="variable"><name>temp</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1aa6e7fddfe2c776e288ae2448935dfb8b" kind="variable"><name>tokenconunt</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a42637176395310e9bd024040dd6ec952" kind="variable"><name>ERRORES</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1ac51c083c77805d773f2e1cbb4752c244" kind="variable"><name>TOKENS</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1aa3d62b774763262cb1ccd0d3fca46633" kind="property"><name>Cadena</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a29c46db5f0bfd24a9d8d7247a836f599" kind="function"><name>Lexe</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1abe76c6d41386278fcb1ef492e8f26ef6" kind="function"><name>Estado_0</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a325f68dd4d16ef511ae0fc3b1b702932" kind="function"><name>Estado_0</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a2964e67dcbeda1beae8ef30dde7a3fbb" kind="function"><name>Estado_3</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a5c2311330e7afe758557fd46d2dfa69e" kind="function"><name>Estado_4</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a7671f60c05274687255a191fdf4fde82" kind="function"><name>Estado_5</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1ad2abcd6d75b1624657cb651ebca1876b" kind="function"><name>Estado_50</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a09e1227bb9b5b7975db041d720892c0c" kind="function"><name>Estado_53</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a26fff745012619806c40a3ac0e00e6d0" kind="function"><name>Estado_52</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1ab6449483eac6cb4cb41a8a7883698384" kind="function"><name>Estado_53</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1adfa7d9e9d434fbe0f4a0e9484aadff5c" kind="function"><name>Estado_54</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1ae98fa6f578d3e13976d22f1c350be8ae" kind="function"><name>Estado_1</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a87985e772f10f3c10b89634fa388feec" kind="function"><name>Estado_10</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a2d81ca82bfb2024f439bb65f754c1544" kind="function"><name>Estado_11</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a22fcfbc2c74e8d4597535767eecba079" kind="function"><name>Estado_12</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1aad19545e1ae7567efb699c42394fff51" kind="function"><name>Estado_13</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1af6a58d2ea67ebc2d084eefc33f0a9964" kind="function"><name>Estado_14</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a01d9d2411816408fcce28c04a81dee26" kind="function"><name>Estado_15</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a1f1da1bb5313d1236163248558b29ee0" kind="function"><name>Estado_16</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a550cb3be13d8613e60283dd6507dc43b" kind="function"><name>Estado_17</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1af9933a46bed7bab4c9222dd60e394971" kind="function"><name>Estado_18</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a369e316674a4186d9397d4da7f10c2cd" kind="function"><name>Estado_19</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1ab006c1f067d03b9f9fa44448e9039c62" kind="function"><name>Estado_51</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a6e102e31bc162eff2d85463574b696ed" kind="function"><name>Estado_2</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1aa80e33bb7fe083d8b078eb0c5d19fe52" kind="function"><name>Estado_20</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a550916bfcd24f807a364015224a07b65" kind="function"><name>Estado_21</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a013611fa6d9f760d1fb0b6fdff5e0b1a" kind="function"><name>Estado_27</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a343a19e9f8ba6091ae8ac59609eb5452" kind="function"><name>Estado_28</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a94cb9358e3cde4a96278e41d6f1f7ef7" kind="function"><name>Estado_29</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a152d7faadc36b10b50d879f36557ef18" kind="function"><name>Estado_30</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1af8a8f02e2d4f4539f7ed9bc258557a3c" kind="function"><name>Estado_31</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1ad05105488c16bc13583e263604ea5a8e" kind="function"><name>Estado_22</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a19feae43d527cac451721f0638b6b2b8" kind="function"><name>Estado_23</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a585db43ab78d15e91beabe125afde98c" kind="function"><name>Estado_24</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a9901c90da8ecfb37e5933a12fe360e06" kind="function"><name>Estado_25</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1afc9c1a97fe7328d1281fc731b88a2806" kind="function"><name>Estado_26</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a023be8567d72003351c693949cd25f16" kind="function"><name>Estado_32</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a348fdb01468ce1338eff27e754090f2f" kind="function"><name>Estado_33</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1af29619591f1d75d7e4696a7993e0d60e" kind="function"><name>Estado_34</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1afe4babc994f9a46fa2a3a8c5c385c5dc" kind="function"><name>Estado_35</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a372a03eca6363378f1126b40b31d61fb" kind="function"><name>Estado_36</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1ad32797bd9c3813df443c9819e758214b" kind="function"><name>Estado_37</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1aebf6ab2e4f7c1524a4175fc5975241be" kind="function"><name>Estado_38</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a0bc4b45c627343b7ad8c50b804f2792d" kind="function"><name>Estado_42</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1aaeeb3f7e8ab502fc6756aab90fc55d11" kind="function"><name>Estado_50</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a787efa4528397f23a7d3855fb4dffbfa" kind="function"><name>Estado_52</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a4124e057f2fd98d1f11291f97afd5a67" kind="function"><name>Estado_55</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1ae2cde0454ac9bb165ed44daf1ff126c1" kind="function"><name>Estado_6</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a0842113d944e7a24e8d42d601b71d3e4" kind="function"><name>Estado_7</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1ad107e1db88f83d085c88571500135fa3" kind="function"><name>Estado_8</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a73d211645398b57bfad214534469af8e" kind="function"><name>Estado_9</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a7d6ad36a51c29f90668f9adad5b6bf37" kind="function"><name>Estado_Final</name></member>
+    <member refid="class_lexer_1_1_lex_1_1_lexe_1a10cca9d6165a9e585456df8d0e01efda" kind="function"><name>Leer</name></member>
+  </compound>
+  <compound refid="class_lexer_1_1_program" kind="class"><name>Lexer::Program</name>
+    <member refid="class_lexer_1_1_program_1a390d093a011ff780a29452b86e2f533c" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_lexer_1_1_properties_1_1_resources" kind="class"><name>Lexer::Properties::Resources</name>
+    <member refid="class_lexer_1_1_properties_1_1_resources_1abd9f5d19bce019f38de3364c73951f3d" kind="variable"><name>resourceMan</name></member>
+    <member refid="class_lexer_1_1_properties_1_1_resources_1a99e80c46f8bf75f6efdac55f4b764eeb" kind="variable"><name>resourceCulture</name></member>
+    <member refid="class_lexer_1_1_properties_1_1_resources_1a7b9261bac5f1d55c0fe33d54005b5c20" kind="property"><name>ResourceManager</name></member>
+    <member refid="class_lexer_1_1_properties_1_1_resources_1a92ba394b68ac610147107ec6c3df9365" kind="property"><name>Culture</name></member>
+    <member refid="class_lexer_1_1_properties_1_1_resources_1aa4fc639bdff97cf04e33e2a8bf71b6f3" kind="function"><name>Resources</name></member>
+  </compound>
+  <compound refid="class_lexer_1_1_properties_1_1_settings" kind="class"><name>Lexer::Properties::Settings</name>
+    <member refid="class_lexer_1_1_properties_1_1_settings_1a6e8b4be96ece8edafdb2584298070bef" kind="variable"><name>defaultInstance</name></member>
+    <member refid="class_lexer_1_1_properties_1_1_settings_1ad4404ec2a385d6bd066db11709584901" kind="property"><name>Default</name></member>
+  </compound>
+  <compound refid="namespace_lexer" kind="namespace"><name>Lexer</name>
+  </compound>
+  <compound refid="namespace_lexer_1_1_lex" kind="namespace"><name>Lexer::Lex</name>
+  </compound>
+  <compound refid="namespace_lexer_1_1_properties" kind="namespace"><name>Lexer::Properties</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model" kind="namespace"><name>System::ComponentModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_drawing" kind="namespace"><name>System::Drawing</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text_1_1_regular_expressions" kind="namespace"><name>System::Text::RegularExpressions</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_forms" kind="namespace"><name>System::Windows::Forms</name>
+  </compound>
+  <compound refid="_form1_8cs" kind="file"><name>Form1.cs</name>
+  </compound>
+  <compound refid="_form1_8_designer_8cs" kind="file"><name>Form1.Designer.cs</name>
+  </compound>
+  <compound refid="_lex_8cs" kind="file"><name>Lex.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_resources_8_designer_8cs" kind="file"><name>Resources.Designer.cs</name>
+  </compound>
+  <compound refid="_settings_8_designer_8cs" kind="file"><name>Settings.Designer.cs</name>
+  </compound>
+  <compound refid="dir_a85e964ad99a1645f90f9f997c1d2599" kind="dir"><name>C:/Users/eartt</name>
+  </compound>
+  <compound refid="dir_c39abedda9097c948f1d0a7399fc25bb" kind="dir"><name>C:/Users/eartt/source/repos/Lexer/Lexer/Lex</name>
+  </compound>
+  <compound refid="dir_9ded7466c78bc8dac4a38e7204d742b2" kind="dir"><name>C:/Users/eartt/source/repos/Lexer/Lexer</name>
+  </compound>
+  <compound refid="dir_fe982c7b208b5060004e6016ba1dd6fe" kind="dir"><name>C:/Users/eartt/source/repos/Lexer</name>
+  </compound>
+  <compound refid="dir_502f98896a23385d5b7aac88ab228cd2" kind="dir"><name>C:/Users/eartt/source/repos/Lexer/Lexer/Properties</name>
+  </compound>
+  <compound refid="dir_b0c5844430f1380dfbb58f3ee323bbc7" kind="dir"><name>C:/Users/eartt/source/repos</name>
+  </compound>
+  <compound refid="dir_237005623aef3cf09530d24d8dd8faba" kind="dir"><name>C:/Users/eartt/source</name>
+  </compound>
+  <compound refid="dir_d522931ffa1371640980b621734a4381" kind="dir"><name>C:/Users</name>
+  </compound>
+</doxygenindex>

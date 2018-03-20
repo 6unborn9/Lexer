@@ -1,0 +1,1075 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_lexer_1_1_lex_1_1_lexe" kind="class" prot="public">
+    <compoundname>Lexer::Lex::Lexe</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_lexer_1_1_lex_1_1_lexe_1adbd8c2c9237843f96d7fa11a6c9d1671" prot="package" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Lexer.Lex.Lexe._Cadena</definition>
+        <argsstring></argsstring>
+        <name>_Cadena</name>
+        <briefdescription>
+<para>Definir variable privada _Cadena </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="45" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lexer_1_1_lex_1_1_lexe_1a151d98637b9c1c0d3129fe4a6afb6e83" prot="package" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Lexer.Lex.Lexe.BUFFER</definition>
+        <argsstring></argsstring>
+        <name>BUFFER</name>
+        <briefdescription>
+<para>Defines the BUFFER </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="50" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lexer_1_1_lex_1_1_lexe_1ab094f2687667a04483bee5e61bfa0a19" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.errorCount</definition>
+        <argsstring></argsstring>
+        <name>errorCount</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Defines the errorCount </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="55" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lexer_1_1_lex_1_1_lexe_1a18bb804f2066a7c6a409cfb4f7a2d024" prot="package" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Lexer.Lex.Lexe.LETRAS</definition>
+        <argsstring></argsstring>
+        <name>LETRAS</name>
+        <initializer>= &quot;[a-zA-Z]&quot;</initializer>
+        <briefdescription>
+<para>Defines the LETRAS </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="65" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lexer_1_1_lex_1_1_lexe_1a9c90d6e07b9cf70a0be837f1c2aa03ea" prot="package" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Lexer.Lex.Lexe.MAYUSCULAS</definition>
+        <argsstring></argsstring>
+        <name>MAYUSCULAS</name>
+        <initializer>= &quot;[A-Z]&quot;</initializer>
+        <briefdescription>
+<para>Defines the MAYUSCULAS </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="70" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lexer_1_1_lex_1_1_lexe_1a50ed36f7f889afc670d446e37ca03047" prot="package" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Lexer.Lex.Lexe.MINUSCULAS</definition>
+        <argsstring></argsstring>
+        <name>MINUSCULAS</name>
+        <initializer>= &quot;[a-z]&quot;</initializer>
+        <briefdescription>
+<para>Defines the MINUSCULAS </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="75" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lexer_1_1_lex_1_1_lexe_1a8c468730a86a279a05bef9ba0dd63e0a" prot="package" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Lexer.Lex.Lexe.NUMEROS</definition>
+        <argsstring></argsstring>
+        <name>NUMEROS</name>
+        <initializer>= &quot;[0-9]&quot;</initializer>
+        <briefdescription>
+<para>Defines the NUMEROS </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="80" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lexer_1_1_lex_1_1_lexe_1ab1fd8080bdd1091cbebce206193d88d8" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.posicion</definition>
+        <argsstring></argsstring>
+        <name>posicion</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Definir la variable de posicion </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="86" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lexer_1_1_lex_1_1_lexe_1a6032b519db9844ddfdea24facbf6af59" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.temp</definition>
+        <argsstring></argsstring>
+        <name>temp</name>
+        <briefdescription>
+<para>Definir variable temporal para el tamaño de la cadena temp </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="91" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lexer_1_1_lex_1_1_lexe_1aa6e7fddfe2c776e288ae2448935dfb8b" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.tokenconunt</definition>
+        <argsstring></argsstring>
+        <name>tokenconunt</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Defines the tokenconunt </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="96" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_lexer_1_1_lex_1_1_lexe_1a42637176395310e9bd024040dd6ec952" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; Lexer.Lex.Lexe.ERRORES</definition>
+        <argsstring></argsstring>
+        <name>ERRORES</name>
+        <initializer>= new List&lt;string&gt;()</initializer>
+        <briefdescription>
+<para>Defines the ERRORES </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="60" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lexer_1_1_lex_1_1_lexe_1ac51c083c77805d773f2e1cbb4752c244" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; Lexer.Lex.Lexe.TOKENS</definition>
+        <argsstring></argsstring>
+        <name>TOKENS</name>
+        <initializer>= new List&lt;string&gt;()</initializer>
+        <briefdescription>
+<para>Defines the TOKENS </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="101" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_lexer_1_1_lex_1_1_lexe_1aa3d62b774763262cb1ccd0d3fca46633" prot="package" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Lexer.Lex.Lexe.Cadena</definition>
+        <argsstring></argsstring>
+        <name>Cadena</name>
+        <briefdescription>
+<para>Gets or sets the Cadena </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="124" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a29c46db5f0bfd24a9d8d7247a836f599" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Lexer.Lex.Lexe.Lexe</definition>
+        <argsstring>(string cadena)</argsstring>
+        <name>Lexe</name>
+        <param>
+          <type>string</type>
+          <declname>cadena</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="namespace_lexer_1_1_lex" kindref="compound">Lex</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cadena</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="111" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="111" bodyend="115"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1abe76c6d41386278fcb1ef492e8f26ef6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_0</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_0</name>
+        <briefdescription>
+<para>The Estado_0 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="138" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="138" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a325f68dd4d16ef511ae0fc3b1b702932" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_0</definition>
+        <argsstring>(char Simbolo)</argsstring>
+        <name>Estado_0</name>
+        <param>
+          <type>char</type>
+          <declname>Simbolo</declname>
+        </param>
+        <briefdescription>
+<para>The Estado_0 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Simbolo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The char</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="185" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="185" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a2964e67dcbeda1beae8ef30dde7a3fbb" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_3</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_3</name>
+        <briefdescription>
+<para>The Estado_3 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="231" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="231" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a5c2311330e7afe758557fd46d2dfa69e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_4</definition>
+        <argsstring>(char Simbolo)</argsstring>
+        <name>Estado_4</name>
+        <param>
+          <type>char</type>
+          <declname>Simbolo</declname>
+        </param>
+        <briefdescription>
+<para>Estado_4, Evaluacion de TOKEN positivo Se determina si el siguiente simbolo leido es parte de un identificador o un caracter desconocido. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Simbolo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The char</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="244" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="244" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a7671f60c05274687255a191fdf4fde82" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_5</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_5</name>
+        <briefdescription>
+<para>The Estado_5 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="340" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="340" bodyend="372"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1ad2abcd6d75b1624657cb651ebca1876b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_50</definition>
+        <argsstring>(char simbolo)</argsstring>
+        <name>Estado_50</name>
+        <param>
+          <type>char</type>
+          <declname>simbolo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="282" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="282" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a09e1227bb9b5b7975db041d720892c0c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_53</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_53</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="306" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="306" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a26fff745012619806c40a3ac0e00e6d0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_52</definition>
+        <argsstring>(char simbolo)</argsstring>
+        <name>Estado_52</name>
+        <param>
+          <type>char</type>
+          <declname>simbolo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="374" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="374" bodyend="397"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1ab6449483eac6cb4cb41a8a7883698384" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_53</definition>
+        <argsstring>(char simbolo)</argsstring>
+        <name>Estado_53</name>
+        <param>
+          <type>char</type>
+          <declname>simbolo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="399" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="399" bodyend="422"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1adfa7d9e9d434fbe0f4a0e9484aadff5c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_54</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_54</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="424" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="424" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1ae98fa6f578d3e13976d22f1c350be8ae" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_1</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_1</name>
+        <briefdescription>
+<para>The Estado_1 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="461" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="461" bodyend="496"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a87985e772f10f3c10b89634fa388feec" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_10</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_10</name>
+        <briefdescription>
+<para>The Estado_10 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="502" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="502" bodyend="530"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a2d81ca82bfb2024f439bb65f754c1544" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_11</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_11</name>
+        <briefdescription>
+<para>The Estado_11 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="536" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="536" bodyend="564"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a22fcfbc2c74e8d4597535767eecba079" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_12</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_12</name>
+        <briefdescription>
+<para>The Estado_12 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="570" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="570" bodyend="574"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1aad19545e1ae7567efb699c42394fff51" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_13</definition>
+        <argsstring>(char Simbolo)</argsstring>
+        <name>Estado_13</name>
+        <param>
+          <type>char</type>
+          <declname>Simbolo</declname>
+        </param>
+        <briefdescription>
+<para>The Estado_13 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Simbolo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The char</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="581" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="581" bodyend="608"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1af6a58d2ea67ebc2d084eefc33f0a9964" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_14</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_14</name>
+        <briefdescription>
+<para>The Estado_14 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="614" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="614" bodyend="645"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a01d9d2411816408fcce28c04a81dee26" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_15</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_15</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="647" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="647" bodyend="678"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a1f1da1bb5313d1236163248558b29ee0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_16</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="680" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="680" bodyend="711"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a550cb3be13d8613e60283dd6507dc43b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_17</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_17</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="713" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="713" bodyend="744"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1af9933a46bed7bab4c9222dd60e394971" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_18</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_18</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="746" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="746" bodyend="750"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a369e316674a4186d9397d4da7f10c2cd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_19</definition>
+        <argsstring>(char simbolo)</argsstring>
+        <name>Estado_19</name>
+        <param>
+          <type>char</type>
+          <declname>simbolo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="752" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="752" bodyend="779"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1ab006c1f067d03b9f9fa44448e9039c62" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_51</definition>
+        <argsstring>(char simbolo)</argsstring>
+        <name>Estado_51</name>
+        <param>
+          <type>char</type>
+          <declname>simbolo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="781" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="781" bodyend="798"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a6e102e31bc162eff2d85463574b696ed" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_2</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_2</name>
+        <briefdescription>
+<para>The Estado_2 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="804" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="804" bodyend="837"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1aa80e33bb7fe083d8b078eb0c5d19fe52" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_20</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_20</name>
+        <briefdescription>
+<para>The Estado_20 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="843" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="843" bodyend="874"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a550916bfcd24f807a364015224a07b65" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_21</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_21</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="876" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="876" bodyend="910"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a013611fa6d9f760d1fb0b6fdff5e0b1a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_27</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_27</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="912" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="912" bodyend="943"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a343a19e9f8ba6091ae8ac59609eb5452" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_28</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_28</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="945" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="945" bodyend="976"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a94cb9358e3cde4a96278e41d6f1f7ef7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_29</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_29</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="978" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="978" bodyend="1009"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a152d7faadc36b10b50d879f36557ef18" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_30</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_30</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1011" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1011" bodyend="1015"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1af8a8f02e2d4f4539f7ed9bc258557a3c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_31</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_31</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1017" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1017" bodyend="1046"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1ad05105488c16bc13583e263604ea5a8e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_22</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_22</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1048" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1048" bodyend="1079"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a19feae43d527cac451721f0638b6b2b8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_23</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_23</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1081" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1081" bodyend="1112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a585db43ab78d15e91beabe125afde98c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_24</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_24</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1114" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1114" bodyend="1145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a9901c90da8ecfb37e5933a12fe360e06" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_25</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_25</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1147" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1147" bodyend="1151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1afc9c1a97fe7328d1281fc731b88a2806" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_26</definition>
+        <argsstring>(char simbolo)</argsstring>
+        <name>Estado_26</name>
+        <param>
+          <type>char</type>
+          <declname>simbolo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1153" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1153" bodyend="1179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a023be8567d72003351c693949cd25f16" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_32</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_32</name>
+        <briefdescription>
+<para>The Estado_32 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1185" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1185" bodyend="1219"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a348fdb01468ce1338eff27e754090f2f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_33</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_33</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1221" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1221" bodyend="1225"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1af29619591f1d75d7e4696a7993e0d60e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_34</definition>
+        <argsstring>(char simbolo)</argsstring>
+        <name>Estado_34</name>
+        <param>
+          <type>char</type>
+          <declname>simbolo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1227" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1227" bodyend="1254"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1afe4babc994f9a46fa2a3a8c5c385c5dc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_35</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_35</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1256" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1256" bodyend="1287"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a372a03eca6363378f1126b40b31d61fb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_36</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_36</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1289" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1289" bodyend="1293"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1ad32797bd9c3813df443c9819e758214b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_37</definition>
+        <argsstring>(char simbolo)</argsstring>
+        <name>Estado_37</name>
+        <param>
+          <type>char</type>
+          <declname>simbolo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1295" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1295" bodyend="1322"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1aebf6ab2e4f7c1524a4175fc5975241be" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_38</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_38</name>
+        <briefdescription>
+<para>The Estado_38 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1328" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1328" bodyend="1331"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a0bc4b45c627343b7ad8c50b804f2792d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_42</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_42</name>
+        <briefdescription>
+<para>The Estado_42 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1337" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1337" bodyend="1340"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1aaeeb3f7e8ab502fc6756aab90fc55d11" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_50</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_50</name>
+        <briefdescription>
+<para>The Estado_50 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1346" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1346" bodyend="1374"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a787efa4528397f23a7d3855fb4dffbfa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_52</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_52</name>
+        <briefdescription>
+<para>The Estado_52 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1379" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1379" bodyend="1404"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a4124e057f2fd98d1f11291f97afd5a67" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_55</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_55</name>
+        <briefdescription>
+<para>The Estado_55 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1410" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1410" bodyend="1413"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1ae2cde0454ac9bb165ed44daf1ff126c1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_6</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_6</name>
+        <briefdescription>
+<para>The Estado_6 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1419" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1419" bodyend="1449"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a0842113d944e7a24e8d42d601b71d3e4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_7</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_7</name>
+        <briefdescription>
+<para>The Estado_7 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1455" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1455" bodyend="1466"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1ad107e1db88f83d085c88571500135fa3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_8</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_8</name>
+        <briefdescription>
+<para>The Estado_8 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1472" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1472" bodyend="1483"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a73d211645398b57bfad214534469af8e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_9</definition>
+        <argsstring>()</argsstring>
+        <name>Estado_9</name>
+        <briefdescription>
+<para>The Estado_9 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1489" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1489" bodyend="1520"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a7d6ad36a51c29f90668f9adad5b6bf37" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Lexer.Lex.Lexe.Estado_Final</definition>
+        <argsstring>(char v)</argsstring>
+        <name>Estado_Final</name>
+        <param>
+          <type>char</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>The Estado_Final </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The char</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The int</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1527" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1527" bodyend="1530"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_lex_1_1_lexe_1a10cca9d6165a9e585456df8d0e01efda" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>char</type>
+        <definition>char Lexer.Lex.Lexe.Leer</definition>
+        <argsstring>()</argsstring>
+        <name>Leer</name>
+        <briefdescription>
+<para>Lee y procesa la cadena de entrada </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="1536" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="1536" bodyend="1549"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Defines the <ref refid="class_lexer_1_1_lex_1_1_lexe" kindref="compound">Lexe</ref> </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" line="39" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Lex/Lex.cs" bodystart="38" bodyend="1552"/>
+    <listofallmembers>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1adbd8c2c9237843f96d7fa11a6c9d1671" prot="package" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>_Cadena</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a151d98637b9c1c0d3129fe4a6afb6e83" prot="package" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>BUFFER</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1aa3d62b774763262cb1ccd0d3fca46633" prot="package" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Cadena</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1ab094f2687667a04483bee5e61bfa0a19" prot="package" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>errorCount</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a42637176395310e9bd024040dd6ec952" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>ERRORES</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1abe76c6d41386278fcb1ef492e8f26ef6" prot="package" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_0</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a325f68dd4d16ef511ae0fc3b1b702932" prot="package" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_0</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1ae98fa6f578d3e13976d22f1c350be8ae" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_1</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a87985e772f10f3c10b89634fa388feec" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_10</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a2d81ca82bfb2024f439bb65f754c1544" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_11</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a22fcfbc2c74e8d4597535767eecba079" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_12</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1aad19545e1ae7567efb699c42394fff51" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_13</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1af6a58d2ea67ebc2d084eefc33f0a9964" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_14</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a01d9d2411816408fcce28c04a81dee26" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_15</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a1f1da1bb5313d1236163248558b29ee0" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_16</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a550cb3be13d8613e60283dd6507dc43b" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_17</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1af9933a46bed7bab4c9222dd60e394971" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_18</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a369e316674a4186d9397d4da7f10c2cd" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_19</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a6e102e31bc162eff2d85463574b696ed" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_2</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1aa80e33bb7fe083d8b078eb0c5d19fe52" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_20</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a550916bfcd24f807a364015224a07b65" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_21</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1ad05105488c16bc13583e263604ea5a8e" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_22</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a19feae43d527cac451721f0638b6b2b8" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_23</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a585db43ab78d15e91beabe125afde98c" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_24</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a9901c90da8ecfb37e5933a12fe360e06" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_25</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1afc9c1a97fe7328d1281fc731b88a2806" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_26</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a013611fa6d9f760d1fb0b6fdff5e0b1a" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_27</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a343a19e9f8ba6091ae8ac59609eb5452" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_28</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a94cb9358e3cde4a96278e41d6f1f7ef7" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_29</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a2964e67dcbeda1beae8ef30dde7a3fbb" prot="package" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_3</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a152d7faadc36b10b50d879f36557ef18" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_30</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1af8a8f02e2d4f4539f7ed9bc258557a3c" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_31</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a023be8567d72003351c693949cd25f16" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_32</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a348fdb01468ce1338eff27e754090f2f" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_33</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1af29619591f1d75d7e4696a7993e0d60e" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_34</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1afe4babc994f9a46fa2a3a8c5c385c5dc" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_35</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a372a03eca6363378f1126b40b31d61fb" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_36</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1ad32797bd9c3813df443c9819e758214b" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_37</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1aebf6ab2e4f7c1524a4175fc5975241be" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_38</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a5c2311330e7afe758557fd46d2dfa69e" prot="package" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_4</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a0bc4b45c627343b7ad8c50b804f2792d" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_42</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a7671f60c05274687255a191fdf4fde82" prot="package" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_5</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1ad2abcd6d75b1624657cb651ebca1876b" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_50</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1aaeeb3f7e8ab502fc6756aab90fc55d11" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_50</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1ab006c1f067d03b9f9fa44448e9039c62" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_51</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a26fff745012619806c40a3ac0e00e6d0" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_52</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a787efa4528397f23a7d3855fb4dffbfa" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_52</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a09e1227bb9b5b7975db041d720892c0c" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_53</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1ab6449483eac6cb4cb41a8a7883698384" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_53</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1adfa7d9e9d434fbe0f4a0e9484aadff5c" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_54</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a4124e057f2fd98d1f11291f97afd5a67" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_55</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1ae2cde0454ac9bb165ed44daf1ff126c1" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_6</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a0842113d944e7a24e8d42d601b71d3e4" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_7</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1ad107e1db88f83d085c88571500135fa3" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_8</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a73d211645398b57bfad214534469af8e" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_9</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a7d6ad36a51c29f90668f9adad5b6bf37" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Estado_Final</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a10cca9d6165a9e585456df8d0e01efda" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Leer</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a18bb804f2066a7c6a409cfb4f7a2d024" prot="package" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>LETRAS</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a29c46db5f0bfd24a9d8d7247a836f599" prot="public" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>Lexe</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a9c90d6e07b9cf70a0be837f1c2aa03ea" prot="package" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>MAYUSCULAS</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a50ed36f7f889afc670d446e37ca03047" prot="package" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>MINUSCULAS</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a8c468730a86a279a05bef9ba0dd63e0a" prot="package" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>NUMEROS</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1ab1fd8080bdd1091cbebce206193d88d8" prot="package" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>posicion</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1a6032b519db9844ddfdea24facbf6af59" prot="package" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>temp</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1aa6e7fddfe2c776e288ae2448935dfb8b" prot="package" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>tokenconunt</name></member>
+      <member refid="class_lexer_1_1_lex_1_1_lexe_1ac51c083c77805d773f2e1cbb4752c244" prot="private" virt="non-virtual"><scope>Lexer::Lex::Lexe</scope><name>TOKENS</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

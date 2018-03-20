@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_lexer_1_1_form1" kind="class" prot="public">
+    <compoundname>Lexer::Form1</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_lexer_1_1_form1_1a327d2234f241f1c1440db1a7654f4a4c" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer Lexer.Form1.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Variable del diseñador necesaria. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Form1.Designer.cs" line="8" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Form1.Designer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_lexer_1_1_form1_1a0e4907dd404780908a98a38629c2290f" compoundref="_form1_8_designer_8cs" startline="14" endline="21">Lexer.Form1.Dispose</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lexer_1_1_form1_1a3aa5de9c26bef9bb95869e7c00bbb740" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox Lexer.Form1.txCodigo</definition>
+        <argsstring></argsstring>
+        <name>txCodigo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Form1.Designer.cs" line="80" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Form1.Designer.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lexer_1_1_form1_1aeb9b57e473543d33efe4f69ac8b03cfc" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ListBox</type>
+        <definition>System.Windows.Forms.ListBox Lexer.Form1.ltTokes</definition>
+        <argsstring></argsstring>
+        <name>ltTokes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Form1.Designer.cs" line="81" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Form1.Designer.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lexer_1_1_form1_1a852ebe25bbd3fbda8fede409b1883aa9" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button Lexer.Form1.Procesar</definition>
+        <argsstring></argsstring>
+        <name>Procesar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Form1.Designer.cs" line="82" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Form1.Designer.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_lexer_1_1_form1_1a0c90e66bb2db3e156e78e11e92fa128e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Lexer.Form1.Form1</definition>
+        <argsstring>()</argsstring>
+        <name>Form1</name>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_lexer_1_1_form1" kindref="compound">Form1</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Form1.cs" line="30" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Form1.cs" bodystart="30" bodyend="33"/>
+        <references refid="class_lexer_1_1_form1_1a26e544f4ab40460ecc902822d5eeea13" compoundref="_form1_8_designer_8cs" startline="29" endline="76">Lexer.Form1.InitializeComponent</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_lexer_1_1_form1_1a619bc2170606130997af7a8a2b7b8331" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Lexer.Form1.Tokens</definition>
+        <argsstring>(List&lt; string &gt; vs)</argsstring>
+        <name>Tokens</name>
+        <param>
+          <type>List&lt; string &gt;</type>
+          <declname>vs</declname>
+        </param>
+        <briefdescription>
+<para>The Tokens </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The List{string}</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Form1.cs" line="43" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Form1.cs" bodystart="43" bodyend="49"/>
+        <referencedby refid="class_lexer_1_1_form1_1a54a5a47b8ed5586f732dfaf1fc4c7e2b" compoundref="_form1_8cs" startline="65" endline="72">Lexer.Form1.Procesar_Click</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_lexer_1_1_form1_1a4504a959aff724ba5d0507ab81ccf84a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Lexer.Form1.Form1_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Form1_Load</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>The Form1_Load </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The EventArgs</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Form1.cs" line="56" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Form1.cs" bodystart="56" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_form1_1a54a5a47b8ed5586f732dfaf1fc4c7e2b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Lexer.Form1.Procesar_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Procesar_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>The Procesar_Click </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The EventArgs</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Form1.cs" line="65" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Form1.cs" bodystart="65" bodyend="72"/>
+        <references refid="class_lexer_1_1_form1_1a619bc2170606130997af7a8a2b7b8331" compoundref="_form1_8cs" startline="43" endline="49">Lexer.Form1.Tokens</references>
+        <references refid="class_lexer_1_1_lex_1_1_lexe_1ac51c083c77805d773f2e1cbb4752c244" compoundref="_lex_8cs" startline="100">Lexer.Lex.Lexe.TOKENS</references>
+      </memberdef>
+      <memberdef kind="function" id="class_lexer_1_1_form1_1a26e544f4ab40460ecc902822d5eeea13" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Lexer.Form1.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Método necesario para admitir el Diseñador. No se puede modificar el contenido de este método con el editor de código. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Form1.Designer.cs" line="29" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Form1.Designer.cs" bodystart="29" bodyend="76"/>
+        <referencedby refid="class_lexer_1_1_form1_1a0c90e66bb2db3e156e78e11e92fa128e" compoundref="_form1_8cs" startline="30" endline="33">Lexer.Form1.Form1</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_lexer_1_1_form1_1a0e4907dd404780908a98a38629c2290f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Lexer.Form1.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Limpiar los recursos que se estén usando. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true si los recursos administrados se deben desechar; false en caso contrario.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Form1.Designer.cs" line="14" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Form1.Designer.cs" bodystart="14" bodyend="21"/>
+        <references refid="class_lexer_1_1_form1_1a327d2234f241f1c1440db1a7654f4a4c" compoundref="_form1_8_designer_8cs" startline="8">Lexer.Form1.components</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Defines the <ref refid="class_lexer_1_1_form1" kindref="compound">Form1</ref> </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>Lexer.Form1</label>
+        <link refid="class_lexer_1_1_form1"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Form</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Lexer.Form1</label>
+        <link refid="class_lexer_1_1_form1"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>Procesar</edgelabel>
+          <edgelabel>ltTokes</edgelabel>
+          <edgelabel>components</edgelabel>
+          <edgelabel>txCodigo</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Form</label>
+      </node>
+      <node id="4">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Form1.cs" line="24" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Form1.cs" bodystart="23" bodyend="75"/>
+    <listofallmembers>
+      <member refid="class_lexer_1_1_form1_1a327d2234f241f1c1440db1a7654f4a4c" prot="private" virt="non-virtual"><scope>Lexer::Form1</scope><name>components</name></member>
+      <member refid="class_lexer_1_1_form1_1a0e4907dd404780908a98a38629c2290f" prot="protected" virt="non-virtual"><scope>Lexer::Form1</scope><name>Dispose</name></member>
+      <member refid="class_lexer_1_1_form1_1a0c90e66bb2db3e156e78e11e92fa128e" prot="public" virt="non-virtual"><scope>Lexer::Form1</scope><name>Form1</name></member>
+      <member refid="class_lexer_1_1_form1_1a4504a959aff724ba5d0507ab81ccf84a" prot="private" virt="non-virtual"><scope>Lexer::Form1</scope><name>Form1_Load</name></member>
+      <member refid="class_lexer_1_1_form1_1a26e544f4ab40460ecc902822d5eeea13" prot="private" virt="non-virtual"><scope>Lexer::Form1</scope><name>InitializeComponent</name></member>
+      <member refid="class_lexer_1_1_form1_1aeb9b57e473543d33efe4f69ac8b03cfc" prot="private" virt="non-virtual"><scope>Lexer::Form1</scope><name>ltTokes</name></member>
+      <member refid="class_lexer_1_1_form1_1a852ebe25bbd3fbda8fede409b1883aa9" prot="private" virt="non-virtual"><scope>Lexer::Form1</scope><name>Procesar</name></member>
+      <member refid="class_lexer_1_1_form1_1a54a5a47b8ed5586f732dfaf1fc4c7e2b" prot="private" virt="non-virtual"><scope>Lexer::Form1</scope><name>Procesar_Click</name></member>
+      <member refid="class_lexer_1_1_form1_1a619bc2170606130997af7a8a2b7b8331" prot="package" virt="non-virtual"><scope>Lexer::Form1</scope><name>Tokens</name></member>
+      <member refid="class_lexer_1_1_form1_1a3aa5de9c26bef9bb95869e7c00bbb740" prot="private" virt="non-virtual"><scope>Lexer::Form1</scope><name>txCodigo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

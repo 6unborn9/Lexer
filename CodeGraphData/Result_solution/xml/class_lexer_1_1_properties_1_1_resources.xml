@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_lexer_1_1_properties_1_1_resources" kind="class" prot="package">
+    <compoundname>Lexer::Properties::Resources</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_lexer_1_1_properties_1_1_resources_1abd9f5d19bce019f38de3364c73951f3d" prot="private" static="yes" mutable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager Lexer.Properties.Resources.resourceMan</definition>
+        <argsstring></argsstring>
+        <name>resourceMan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Properties/Resources.Designer.cs" line="28" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Properties/Resources.Designer.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lexer_1_1_properties_1_1_resources_1a99e80c46f8bf75f6efdac55f4b764eeb" prot="private" static="yes" mutable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo Lexer.Properties.Resources.resourceCulture</definition>
+        <argsstring></argsstring>
+        <name>resourceCulture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Properties/Resources.Designer.cs" line="30" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Properties/Resources.Designer.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_lexer_1_1_properties_1_1_resources_1a7b9261bac5f1d55c0fe33d54005b5c20" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager Lexer.Properties.Resources.ResourceManager</definition>
+        <argsstring></argsstring>
+        <name>ResourceManager</name>
+        <briefdescription>
+<para>Devuelve la instancia ResourceManager almacenada en caché utilizada por esta clase. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Properties/Resources.Designer.cs" line="41" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Properties/Resources.Designer.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lexer_1_1_properties_1_1_resources_1a92ba394b68ac610147107ec6c3df9365" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo Lexer.Properties.Resources.Culture</definition>
+        <argsstring></argsstring>
+        <name>Culture</name>
+        <briefdescription>
+<para>Invalida la propiedad CurrentUICulture del subproceso actual para todas las búsquedas de recursos usando esta clase de recursos fuertemente tipados. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Properties/Resources.Designer.cs" line="59" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Properties/Resources.Designer.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_lexer_1_1_properties_1_1_resources_1aa4fc639bdff97cf04e33e2a8bf71b6f3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Lexer.Properties.Resources.Resources</definition>
+        <argsstring>()</argsstring>
+        <name>Resources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Properties/Resources.Designer.cs" line="33" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Properties/Resources.Designer.cs" bodystart="33" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Clase de recurso fuertemente tipado para buscar cadenas traducidas, etc. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="10">
+        <label>Lexer.Properties.Resources</label>
+        <link refid="class_lexer_1_1_properties_1_1_resources"/>
+        <childnode refid="10" relation="usage">
+          <edgelabel>resourceMan</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/eartt/source/repos/Lexer/Lexer/Properties/Resources.Designer.cs" line="26" column="1" bodyfile="C:/Users/eartt/source/repos/Lexer/Lexer/Properties/Resources.Designer.cs" bodystart="25" bodyend="70"/>
+    <listofallmembers>
+      <member refid="class_lexer_1_1_properties_1_1_resources_1a92ba394b68ac610147107ec6c3df9365" prot="package" virt="non-virtual"><scope>Lexer::Properties::Resources</scope><name>Culture</name></member>
+      <member refid="class_lexer_1_1_properties_1_1_resources_1a99e80c46f8bf75f6efdac55f4b764eeb" prot="private" virt="non-virtual"><scope>Lexer::Properties::Resources</scope><name>resourceCulture</name></member>
+      <member refid="class_lexer_1_1_properties_1_1_resources_1abd9f5d19bce019f38de3364c73951f3d" prot="private" virt="non-virtual"><scope>Lexer::Properties::Resources</scope><name>resourceMan</name></member>
+      <member refid="class_lexer_1_1_properties_1_1_resources_1a7b9261bac5f1d55c0fe33d54005b5c20" prot="package" virt="non-virtual"><scope>Lexer::Properties::Resources</scope><name>ResourceManager</name></member>
+      <member refid="class_lexer_1_1_properties_1_1_resources_1aa4fc639bdff97cf04e33e2a8bf71b6f3" prot="package" virt="non-virtual"><scope>Lexer::Properties::Resources</scope><name>Resources</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
